@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(images2/beauty\ polor\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* top */
+
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(150, 160, 16);
+
+
+}
+
+.top h4 {
+    margin-left: 40px;
+}
+
+.top p {
+    margin-right: 20px;
+}
+
+.top p a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: rgb(172, 178, 179);
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+
+nav .logo {
+    width: 15%;
+    text-align: center;
+
+}
+
+nav .logo img {
+    width: 45%;
+    text-align: center;
+
+}
+
+
+nav .menu {
+    width: 50%;
+
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav .menu ul a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav .menu ul a:hover {
+    color: rgb(240, 12, 12);
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.btn button {
+    border-radius: 100px;
+    color: rgb(255, 248, 248);
+    background-color: rgb(123, 50, 184);
+    width: 130px;
+    height: 40px;
+    box-shadow: 1px 2px 2px rgb(0, 0, 0);
+    font-size: 12px;
+
+}
+
+.btn button:hover {
+    background-color: rgb(8, 8, 8);
+    color: rgb(250, 242, 242);
+}
+
+.content {
+    width: 100%;
+    height: 50vh;
+    margin-top: 175px;
+    justify-content: center center;
+    /*align-items: center; */
+    text-align: center;
+    font-size: 30px;
+    color: rgb(26, 207, 2);
+}
+
+.content button {
+    border-radius: 30px;
+    background-color: rgb(102, 68, 156);
+    color: #eae4ee;
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.content button:hover {
+    background-color: black;
+}
+
+/*Introduction */
+.intro {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.course-offer {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.course1 img {
+    width: 300px;
+    height: 200px;
+    margin-right: 200px;
+}
+
+.course2 img {
+    width: 300px;
+    height: 200px;
+    margin-right: 200px;
+}
+
+.course3 img {
+    width: 300px;
+    height: 200px;
+    margin-right: 200px;
+}
+.course4 img {
+    width: 300px;
+    height: 200px;
+    margin-right: 200px;
+}
+.course5 img {
+    width: 300px;
+    height: 200px;
+    margin-right: 200px;
+}
+
+
+
+.course-offer1 {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.course6 img {
+    width: 300px;
+    height: 200px;
+    margin-right: 200px;
+}
+
+.course7 img {
+    width: 300px;
+    height: 200px;
+    margin-right: 200px;
+}
+
+.course8 img {
+    width: 300px;
+    height: 200px;
+    margin-right: 40px;
+}
+.footer{
+     text-align: center;
+     margin-top: 300px;
+     display: flex;
+     background-color: black
+}
+.foot1{
+    width: 250px;
+    height: fit-content;
+    margin-top: 10px;
+}
+.foot1{
+    width: 250px;
+}
+.foot1 img{
+    width: 250px;
+}
+
+.foot2 {
+     width: 1500px;
+    color: white;
+    margin-top: 100px;
+     text-align: center;
+     
+}
+   
+
+.foot2 p  a{
+    
+    color: white;
+   
+    
+    
+
+}
+.foot3{
+    width: 250px;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-right: 200px;
+    
+
+}
+.foot3 ul li {
+    list-style: none;
+
+}
+.foot3 ul li a{
+list-style: none;
+text-decoration: none;
+color: white;
+}
+.foot3 :hover{
+    color: rgb(240, 12, 12);
+    text-decoration: underline;
+    font-weight: bold;
+
+}
